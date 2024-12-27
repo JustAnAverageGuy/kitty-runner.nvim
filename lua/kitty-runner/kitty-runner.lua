@@ -26,6 +26,10 @@ end
 
 local function send_kitty_command(cmd_args, command)
   local args = { "@", "--to=" .. config["kitty_port"] }
+  -- https://github.com/will-clarke/kitty-runner.nvim/blob/d2d0107481a2c614bc60605eccd27cc5422685e8/lua/kitty-runner/kitty-runner.lua
+  if config["mode"] == "window" then
+    args = {"@"}
+  end
   for _, v in pairs(cmd_args) do
     table.insert(args, v)
   end
