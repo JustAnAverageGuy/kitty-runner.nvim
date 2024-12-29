@@ -1,5 +1,9 @@
 # kitty-runner.nvim
 
+> [!NOTE]
+> Archiving this since the [patch](https://github.com/will-clarke/kitty-runner.nvim/blob/d2d0107481a2c614bc60605eccd27cc5422685e8/lua/kitty-runner/kitty-runner.lua)  didn't work for me
+> ended up using [simple-kitty-runner.nvim](https://github.com/lolpie244/simple-kitty-runner.nvim) 
+
 This neovim plugin allows you to easily send lines from the current buffer to another kitty terminal. I use it mostly as a poor man's REPL, e.g. I start ipython in the kitty terminal and send buffer lines to it.
 
 This plugin is inspired by and heavily borrows from [vim-kitty-runner](https://github.com/LkeMitchll/vim-kitty-runner).
