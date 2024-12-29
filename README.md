@@ -1,3 +1,9 @@
+> [!NOTE]
+> Archiving this since the [patch](https://github.com/will-clarke/kitty-runner.nvim/blob/d2d0107481a2c614bc60605eccd27cc5422685e8/lua/kitty-runner/kitty-runner.lua)  didn't work for me
+> ended up using [simple-kitty-runner.nvim](https://github.com/lolpie244/simple-kitty-runner.nvim) 
+
+---
+
 # kitty-runner.nvim
 
 > [!NOTE]
